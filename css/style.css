@@ -1,8 +1,10 @@
 * { margin: 0; padding: 0; }
-body { background:#b7fdfe; }
+body { background:#fbc08c; }
 a { outline: 0; }
-h1 { text-align: center; margin: 0 auto; font: bold 32px Adobe Garamond Pro; margin: 70px auto 10px; letter-spacing: -1px; }
-h2 { text-align: center; padding: 5px; margin: 10px; background: #fed3f5; color: #398138; }
+h1 { text-align: center; margin: 0 auto; font: bold 32px Adobe Garamond Pro;
+ margin: 70px auto 10px; letter-spacing: -1px; text-decoration: none;
+  }
+h2 { text-align: center; padding: 5px; margin: 10px; background: #fbc08c; color: #fd536b; text-decoration: none; }
  
 #garagedoor {
 	margin: 10px auto;
@@ -47,3 +49,51 @@ h2 { text-align: center; padding: 5px; margin: 10px; background: #fed3f5; color:
    background: url(../images/window.png) no-repeat bottom center;
    text-indent: -9999px;
 }
+
+
+
+
+#garagedoor2 {
+	margin: 10px auto;
+	list-style: none;
+	background: url(../images/menu-bg1.jpg) no-repeat;
+	width: 800px;
+	overflow: auto;	
+}
+#garagedoor2 li {
+	width: 200px;
+	height: 100px;
+	display: block;
+	float: left;
+}
+
+/* Modernizer Enabled */
+.csstransitions #garagedoor2 li {
+	-webkit-transition: background-position 0.6s ease;
+	-moz-transition: background-position 0.6s ease;
+	-o-transition-property: background-position 0.6s ease;
+}
+.csstransitions #garagedoor2 li:hover {
+	background-position: 0 -100px !important;
+}
+
+#garagedoor2 li#shutter1 {
+	background: url(../images/shutter-africanplains1.jpg) 0 0 no-repeat; 
+}
+#garagedoor2 li#shutter2 {
+	background: url(../images/shutter-reptiles1.jpg) 0 0 no-repeat; 
+}
+#garagedoor2 li#shutter3 {
+	background: url(../images/shutter-arcticzone1.jpg) 0 0 no-repeat; 
+}
+#garagedoor2 li#shutter4 {
+	background: url(../images/shutter-aviary1.jpg) 0 0 no-repeat; 
+}
+#garagedoor2 a {
+   width: 200px;
+   height: 100px;
+   display: block;
+   background: url(../images/window.png) no-repeat bottom center;
+   text-indent: -9999px;
+}
+
